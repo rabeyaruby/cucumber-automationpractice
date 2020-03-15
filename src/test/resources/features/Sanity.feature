@@ -3,6 +3,7 @@ Feature: Sanity Test of Automation Practice Website
   # Given, When, Then, And
   Background: This is a set up that runs before each scenario
     Given I navigation to 'automation practice' website in the browser
+
   Scenario: Navigation to WOMEN DRESSES tab successful
     Given I hoverover on'WOMEN' tab in home page
     And  I click on 'Evening Dresses' tab in navigation menu
